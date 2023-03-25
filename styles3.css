@@ -1,0 +1,73 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: 'Oxygen', sans-serif;
+}
+
+
+/** HEADER **/
+#header-nav {
+  background-color: lightgoldenrodyellow;
+  border-radius: 0;
+  border: 0;
+  margin-bottom: 20px;
+}
+.navbar-brand{
+  padding-top:10px ;
+  color: black;
+
+}
+h2{
+  text-align: center;
+}
+h3{
+  font-size: 25px;
+  font-weight: bold;
+}
+#main-content{
+  background-color: lightgray;
+  color: black;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .navbar-brand{
+  margin-left: 10px;
+   }
+
+ #header-nav{
+  height: 100px;
+ }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+ .navbar-brand{
+  margin-left: 10px;
+  
+   }
+
+ #header-nav{
+  height: 100px;
+ }
+}
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+ #header-nav{
+  height: 100px;
+ }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .container{
+    margin: 25px;
+  }
+}
